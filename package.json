@@ -1,0 +1,18 @@
+{
+  "name": "mochify_sample_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "phantom": "node node_modules/mochify/bin/cmd.js --require mocha-jenkins-reporter -R mocha-jenkins-reporter",
+    "test": "npm run phantom"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "mocha": "^2.2.5",
+    "mocha-jenkins-reporter": "^0.1.8",
+    "mochify": "^2.8.1"
+  }
+}
